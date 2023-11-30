@@ -382,9 +382,107 @@ img {
   line-height: 1.5;
 }
 .modal-form {
+  width: 408px;
+  height: 584px;
+  border-radius: 4px;
+  background: var(--DAIRY, #fcfcfc);
+}
+.modal-text {
+  color: var(--NAVY-BLUE, #2e2f42);
+  text-align: center;
+
+  /* Body Medium */
+  font-family: Roboto;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 24px; /* 150% */
+  letter-spacing: 0.32px;
+  margin-bottom: 16px;
+}
+.contacts-fieldset {
   display: flex;
   flex-direction: column;
+  gap: 8px;
+  margin-bottom: 16px;
 }
+.comment-fieldset {
+  display: flex;
+  width: 360px;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 4px;
+  margin-bottom: 16px;
+}
+.modal-comment {
+  resize: none;
+  width: 360px;
+  height: 120px;
+  flex-shrink: 0;
+  border-radius: 4px;
+  border: 1px solid var(--NAVY-BLUE-modal, rgba(46, 47, 66, 0.4));
+}
+.acception-fieldset {
+  display: flex;
+  flex-direction: row-reverse;
+  gap: 8px;
+  border: none;
+  margin-bottom: 24px;
+}
+.modal-checkbox-label {
+  color: var(--LIGHT-SLATE, #8e8f99);
+
+  /* Small Text */
+  font-family: Roboto;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 14px; /* 116.667% */
+  letter-spacing: 0.48px;
+}
+.privacy-policy {
+  color: var(--IRIS, #4d5ae5);
+
+  /* Link Text */
+  font-family: Roboto;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 16px;
+  letter-spacing: 0.48px;
+  text-decoration-line: underline;
+}
+.send-button {
+  background-color: #4d5ae5;
+  color: #fff;
+  cursor: pointer;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+  display: block;
+  min-width: 169px;
+  height: 56px;
+  border: none;
+  border-radius: 4px;
+  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
+  margin-right: auto;
+  margin-left: auto;
+}
+.send-button-text {
+  color: var(--WHITE, #fff);
+  text-align: center;
+  padding: 16px 32px;
+
+  /* Button Text */
+  font-family: Roboto;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 24px; /* 150% */
+  letter-spacing: 0.64px;
+}
+
 .page-footer {
   background-color: #2e2f42;
   padding: 100px 0;
