@@ -411,6 +411,33 @@
           </ul>
         </div>
       </section>
+      <form class="modal-form">
+        <p>Leave your contacts and we will call you back</p>
+        <label for="user-name">Name</label>
+        <input type="text" name="user-name" id="user-name" required />
+        <label for="user-tel">Phone</label>
+        <input type="tel" name="user-tel" id="user-tel" required />
+        <label for="user-email">Email</label>
+        <input type="email" name="user-email" id="user-email" required />
+        <label for="comment">Comment</label>
+        <textarea
+          name="comment"
+          id="comment"
+          cols="30"
+          rows="10"
+          placeholder="Text input"
+        ></textarea>
+        <label for="modal-checkbox"
+          >I accept the terms and conditions of the Privacy Policy</label
+        >
+        <input
+          type="checkbox"
+          name="modal-checkbox"
+          id="modal-checkbox"
+          value="I accept the terms and conditions of the Privacy Policy"
+        />
+        <button type="submit">Send</button>
+      </form>
     </main>
     <footer class="page-footer">
       <div class="container footer-container">

@@ -381,6 +381,10 @@ img {
   color: #434455;
   line-height: 1.5;
 }
+.modal-form {
+  display: flex;
+  flex-direction: column;
+}
 .page-footer {
   background-color: #2e2f42;
   padding: 100px 0;
