@@ -457,9 +457,32 @@
           </ul>
         </div>
       </div>
-      <div class="footer-form-container"></div>
+      <div class="footer-form-container">
+        <p class="subscribe-text">Subscribe</p>
+        <form class="subscribe-form">
+          <label for="subscribe-email" class="subscribe-label"></label>
+          <input
+            class="subscribe-email"
+            id="subscribe-email"
+            type="email"
+            name="email"
+            placeholder="E-mail"
+          />
+        </form>
+        <button class="subscribe-button" type="submit">
+          Subscribe
+          <svg
+            class="telegram-icon"
+            width="24"
+            height="24"
+            aria-label="telegram-icon"
+          >
+            <use href="./images/icons.svg#icon-telegram"></use>
+          </svg>
+        </button>
+      </div>
     </footer>
-    <div class="backdrop is-open">
+    <div class="backdrop">
       <div class="modal">
         <button class="modal-close-button" type="button">
           <svg
