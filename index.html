@@ -485,7 +485,7 @@
                 pattern="[A-Za-zа-яА-ЯіІїЇєЄґҐ']+"
                 required
               />
-              <svg>
+              <svg class="form-contacts-icon">
                 <use
                   href="./images/icons.svg#icon-person"
                   width="18"
@@ -506,7 +506,7 @@
                 pattern="[0-9]{3}-[0-9]{3}-[0-9]{2}-[0-9]{2}"
                 required
               />
-              <svg>
+              <svg class="form-contacts-icon">
                 <use
                   href="./images/icons.svg#icon-phone"
                   width="18"
@@ -526,7 +526,7 @@
                 type="email"
                 required
               />
-              <svg>
+              <svg class="form-contacts-icon">
                 <use
                   href="./images/icons.svg#icon-email"
                   width="18"
@@ -548,15 +548,25 @@
           </div>
           <div class="checkbox-wrapper">
             <input
-              class="form-checkbox"
+              class="form-checkbox visually-hidden"
               id="checkbox"
               name="form-checkbox"
               type="checkbox"
               value="true"
               required
             />
-            <label class="checkbox-label" for="checkbox"
-              >I accept the terms and conditions of the
+            <label class="checkbox-label" for="checkbox">
+              <span class="own-checkbox">
+                <svg class="positive-icon">
+                  <use
+                    href="./images/icons.svg#icon-positive"
+                    width="16"
+                    height="16"
+                    aria-label="positive icon"
+                  ></use>
+                </svg>
+              </span>
+              I accept the terms and conditions of the
               <a class="privacy-policy-link" href="">Privacy Policy</a></label
             >
           </div>
