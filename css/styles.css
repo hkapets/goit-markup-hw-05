@@ -449,6 +449,10 @@ input {
 }
 .footer-container {
   display: flex;
+  gap: 80px;
+}
+.footer-logo-social-container {
+  display: flex;
   align-items: baseline;
 }
 .footer-logo-container {
@@ -460,7 +464,13 @@ input {
 .footer-contacts-list {
   margin-top: 16px;
 }
+.footer-form-container {
+  display: flex;
+  flex-direction: column;
+}
 .subscribe-text {
+  width: 75px;
+  display: block;
   font-weight: 500;
   font-size: 16px;
   line-height: 1.5;
@@ -469,6 +479,7 @@ input {
   margin-bottom: 16px;
 }
 .subscribe-form {
+  width: 264px;
   display: flex;
   gap: 24px;
 }
