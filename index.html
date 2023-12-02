@@ -411,62 +411,6 @@
           </ul>
         </div>
       </section>
-      <form class="modal-form">
-        <p class="modal-text">Leave your contacts and we will call you back</p>
-        <fieldset class="contacts-fieldset">
-          <label class="modal-form-label" for="user-name">Name</label>
-          <input
-            class="modal-form-input"
-            type="text"
-            name="user-name"
-            id="user-name"
-            required
-          />
-          <label class="modal-form-label" for="user-tel">Phone</label>
-          <input
-            class="modal-form-input"
-            type="tel"
-            name="user-tel"
-            id="user-tel"
-            required
-          />
-          <label class="modal-form-label" for="user-email">Email</label>
-          <input
-            class="modal-form-input"
-            type="email"
-            name="user-email"
-            id="user-email"
-            required
-          />
-          <fieldset class="comment-fieldset">
-            <label class="textarea-label" for="comment">Comment</label>
-            <textarea
-              class="modal-comment"
-              name="comment"
-              id="comment"
-              rows="10"
-              placeholder="Text input"
-            ></textarea>
-          </fieldset>
-        </fieldset>
-        <fieldset class="acception-fieldset">
-          <label class="modal-checkbox-label" for="modal-checkbox"
-            >I accept the terms and conditions of the
-            <span class="privacy-policy">Privacy Policy</span>
-          </label>
-          <input
-            class="acception-checkbox"
-            type="checkbox"
-            name="modal-checkbox"
-            id="modal-checkbox"
-            value="I accept the terms and conditions of the Privacy Policy"
-            required
-          />
-        </fieldset>
-        <button class="send-button" type="submit">
-          <span class="send-button-text">Send</span>
-        </button>
-      </form>
     </main>
     <footer class="page-footer">
       <div class="container footer-container">
@@ -514,5 +458,19 @@
         </div>
       </div>
     </footer>
+    <div class="backdrop">
+      <div class="modal">
+        <button class="modal-close-button">
+          <svg
+            class="modal-close-button-icon"
+            width="8"
+            height="8"
+            aria-label="close modal icon"
+          >
+            <use href="./images/icons.svg#icon-close"></use>
+          </svg>
+        </button>
+      </div>
+    </div>
   </body>
 </html>
