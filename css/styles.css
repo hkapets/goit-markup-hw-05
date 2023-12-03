@@ -451,10 +451,6 @@ input {
   display: flex;
   gap: 80px;
 }
-.footer-logo-social-container {
-  display: flex;
-  align-items: baseline;
-}
 .footer-logo-container {
   margin-right: 120px;
 }
