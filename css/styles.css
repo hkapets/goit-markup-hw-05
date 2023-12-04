@@ -449,7 +449,6 @@ input {
 }
 .footer-container {
   display: flex;
-  gap: 80px;
 }
 .footer-logo-container {
   margin-right: 120px;
@@ -461,12 +460,8 @@ input {
   margin-top: 16px;
 }
 .footer-form-container {
-  display: flex;
-  flex-direction: column;
-  gap: 16px;
 }
 .subscribe-text {
-  width: 75px;
   display: block;
   font-weight: 500;
   font-size: 16px;
@@ -476,7 +471,6 @@ input {
   margin-bottom: 16px;
 }
 .subscribe-form {
-  width: 264px;
   display: flex;
   gap: 24px;
 }
@@ -495,6 +489,9 @@ input {
 }
 .subscribe-email::placeholder {
   color: #ffffff;
+}
+.subscribe-email:focus {
+  border-color: #404bbf;
 }
 .subscribe-button {
   font-family: "Roboto", sans-serif;

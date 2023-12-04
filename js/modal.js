@@ -1,4 +1,5 @@
-const refs = {
+
+  const refs = {
     // Додати атрибут data-modal-open на кнопку відкриття
     openModalBtn: document.querySelector("[data-modal-open]"),
     // Додати атрибут data-modal-close на кнопку закриття
